@@ -7,7 +7,7 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-const dbUrl = 'mongodb+srv://tutmango:UEth59qYJqjk8@cluster0.rtaz4ow.mongodb.net/mango?retryWrites=true&w=majority';
+const dbUrl = '';
 
 mongoose.connect(dbUrl, { useNewUrlParser: true, useUnifiedTopology: true });
 
